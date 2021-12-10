@@ -33,16 +33,18 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                          <li className='nav-item'>
-                            <Link to='/' className='nav-links' onclick={closeMobileMenu}>Início</Link>
+                            <Link to='/' className='nav-links' onclick={closeMobileMenu}>
+                                 Início
+                            </Link>
                          </li> 
                          <li className='nav-item'>
-                            <Link to='/servicos' className='nav-links' onclick={closeMobileMenu}>Serviços</Link>
+                            <Link to='/services' className='nav-links' onclick={closeMobileMenu}>Serviços</Link>
                          </li> 
                          <li className='nav-item'>
-                            <Link to='/produtos' className='nav-links' onclick={closeMobileMenu}>Produtos</Link>
+                            <Link to='/products' className='nav-links' onclick={closeMobileMenu}>Produtos</Link>
                          </li>
                          <li className='nav-item'>
-                            <Link to='/cadastre-se' className='nav-links' onclick={closeMobileMenu}>Cadastre-se</Link>
+                            <Link to='/sign-up' className='nav-links' onclick={closeMobileMenu}>Cadastre-se</Link>
                          </li>
                     </ul>
                      {button && <Button buttonStyle='btn--outline'>Cadastre-se 
@@ -50,7 +52,7 @@ function Navbar() {
                 </div>
             </nav>
         </>
-    )
+    );
 }
 
 export default Navbar;
