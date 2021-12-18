@@ -44,7 +44,9 @@ export default function Navbar() {
                             <Link to="/" className="nav-links" onClick={closeMobileMenu}>Cadastre-se</Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Entrar</Button>}
+                    {button && <Button
+                    buttonStyle="btn--outline"
+                    >Entrar</Button>}
                 </div>
             </nav>
         </div>

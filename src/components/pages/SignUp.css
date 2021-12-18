@@ -1,0 +1,47 @@
+body {
+    background: rgb(2,0,36);
+    background: radial-gradient(
+        circle,
+        rgba(2,0,36,1) 0%,
+        rgba(30,54,59,1) 0%,
+        rgba(93,93,116,1) 100%);
+        text-align: center;
+}
+
+.conteiner {
+    display: flex !important;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    max-width: 500px;
+    width: 80%;
+    margin: auto;
+}
+
+.container > form {
+    width:80%;
+    border: 1px solid #dfdfdf;
+    padding:20px;
+    border-radius: 5px;
+    background: #ffff;
+    margin: auto;
+    display: inline-block;
+}
+
+pre {
+    width: 50%;
+    color: #ffff;
+    font-size:larger;
+    margin: auto; 
+}
+
+button {
+    background: rgb(255, 255, 255);
+    margin: auto;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+
